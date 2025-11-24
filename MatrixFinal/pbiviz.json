@@ -1,0 +1,23 @@
+{
+  "visual": {
+    "name": "MatrixSuprema",
+    "displayName": "Matrix Suprema",
+    "guid": "MatrixSuprema2025A1B2C3D4E5F6",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "Matriz ultra suprema moderna con diseño Apple y exportación a Excel",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.1.0",
+  "author": {
+    "name": "Custom Visual Developer",
+    "email": "developer@custom.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json"
+}
