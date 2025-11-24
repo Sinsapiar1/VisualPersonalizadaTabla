@@ -1,0 +1,7 @@
+node_modules/
+.tmp/
+dist/
+*.pbiviz
+package-lock.json
+.DS_Store
+*.log
