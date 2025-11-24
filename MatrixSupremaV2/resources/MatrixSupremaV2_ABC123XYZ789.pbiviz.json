@@ -1,0 +1,61 @@
+{
+  "visual": {
+    "name": "MatrixSupremaV2_ABC123XYZ789",
+    "displayName": "Matrix Suprema V2",
+    "guid": "MatrixSupremaV2_ABC123XYZ789",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "Matriz moderna con exportaci\u00f3n - Fase 1"
+  },
+  "apiVersion": "5.1.0",
+  "author": {
+    "name": "Developer",
+    "email": "dev@example.com"
+  },
+  "capabilities": {
+    "dataRoles": [
+      {
+        "displayName": "Filas",
+        "name": "rows",
+        "kind": "Grouping"
+      },
+      {
+        "displayName": "Columnas",
+        "name": "columns",
+        "kind": "Grouping"
+      },
+      {
+        "displayName": "Valores",
+        "name": "values",
+        "kind": "Measure"
+      }
+    ],
+    "dataViewMappings": [
+      {
+        "matrix": {
+          "rows": {
+            "for": {
+              "in": "rows"
+            }
+          },
+          "columns": {
+            "for": {
+              "in": "columns"
+            }
+          },
+          "values": {
+            "for": {
+              "in": "values"
+            }
+          }
+        }
+      }
+    ],
+    "objects": {}
+  },
+  "content": {
+    "js": "var MatrixSupremaV2_ABC123XYZ789;(function(powerbi){\"use strict\";var visuals;(function(visuals){var plugins;(function(plugins){class Visual{constructor(options){this.target=options.element;this.host=options.host;this.container=document.createElement('div');this.container.style.cssText='width:100%;height:100%;background:#FF0000;display:flex;align-items:center;justify-content:center;font-size:48px;font-weight:bold;color:white;font-family:Arial,sans-serif;text-align:center;';this.target.appendChild(this.container);this.container.innerHTML='<div>\u2705 VISUAL FUNCIONANDO \u2705<br><br>FASE 1 EXITOSA</div>';}update(options){console.log('Update called',options);if(!this.container)return;var html='<div style=\"padding:20px;background:white;color:black;border-radius:10px;box-shadow:0 4px 20px rgba(0,0,0,0.3);\">';html+='<h2>\u2705 VISUAL RENDERIZANDO</h2>';html+='<p>Constructor: OK</p>';html+='<p>Update: OK</p>';if(options&&options.dataViews&&options.dataViews[0]){html+='<p style=\"color:green;font-weight:bold;\">DATOS RECIBIDOS: '+JSON.stringify(options.dataViews[0].metadata)+'</p>';}else{html+='<p style=\"color:orange;\">Esperando datos...</p>';}html+='</div>';this.container.innerHTML=html;}enumerateObjectInstances(options){return[];}destroy(){if(this.container)this.container.innerHTML='';}}plugins.MatrixSupremaV2_ABC123XYZ789={name:'MatrixSupremaV2_ABC123XYZ789',displayName:'Matrix Suprema V2',class:'Visual',apiVersion:'5.1.0',create:function(options){return new Visual(options);},custom:true};})(plugins=visuals.plugins||(visuals.plugins={}));})(visuals=powerbi.visuals||(powerbi.visuals={}));})(window['powerbi']||(window['powerbi']={}));MatrixSupremaV2_ABC123XYZ789=window['powerbi'].visuals.plugins.MatrixSupremaV2_ABC123XYZ789;",
+    "css": "",
+    "iconBase64": ""
+  }
+}

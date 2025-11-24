@@ -1,0 +1,17 @@
+{
+	"version": "1.0.0",
+	"author": {"name":"Developer","email":"dev@example.com"},
+	"resources": [
+		{
+			"resourceId": "rId0",
+			"sourceType": 5,
+			"file": "resources/MatrixSupremaV2_ABC123XYZ789.pbiviz.json"
+		}
+	],
+	"visual": {"name":"Matrix Suprema V2","displayName":"Matrix Suprema V2","guid":"MatrixSupremaV2_ABC123XYZ789","visualClassName":"Visual","version":"1.0.0","description":"Matriz moderna con exportación - Fase 1 Test"},
+	"metadata": {
+		"pbivizjson": {
+			"resourceId": "rId0"
+		}
+	}
+}

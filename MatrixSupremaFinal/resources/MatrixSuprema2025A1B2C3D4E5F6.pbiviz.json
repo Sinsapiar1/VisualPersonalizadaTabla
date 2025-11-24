@@ -1,0 +1,203 @@
+{
+  "visual": {
+    "name": "Matrix Suprema",
+    "displayName": "Matrix Suprema",
+    "guid": "MatrixSuprema2025A1B2C3D4E5F6",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "Matriz ultra suprema moderna",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "author": {
+    "name": "Author name",
+    "email": "author@mail.com"
+  },
+  "apiVersion": "5.8.0",
+  "style": "style/visual.less",
+  "stringResources": {
+    "ar-SA": {
+      "LanguageKey": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)"
+    },
+    "bg-BG": {
+      "LanguageKey": "\u0431\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 (Bulgarian)"
+    },
+    "ca-ES": {
+      "LanguageKey": "catal\u00e0 (Catalan)"
+    },
+    "cs-CZ": {
+      "LanguageKey": "\u010de\u0161tina (Czech)"
+    },
+    "da-DK": {
+      "LanguageKey": "dansk (Danish)"
+    },
+    "de-DE": {
+      "LanguageKey": "Deutsche (German)"
+    },
+    "el-GR": {
+      "LanguageKey": "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac (Greek)"
+    },
+    "en-US": {
+      "LanguageKey": "English (English)"
+    },
+    "es-ES": {
+      "LanguageKey": "espa\u00f1ol service (Spanish)"
+    },
+    "et-EE": {
+      "LanguageKey": "eesti (Estonian)"
+    },
+    "eu-ES": {
+      "LanguageKey": "Euskal (Basque)"
+    },
+    "fi-FI": {
+      "LanguageKey": "suomi (Finnish)"
+    },
+    "fr-FR": {
+      "LanguageKey": "fran\u00e7ais (French)"
+    },
+    "gl-ES": {
+      "LanguageKey": "galego (Galician)"
+    },
+    "he-IL": {
+      "LanguageKey": "\u05e2\u05d1\u05e8\u05d9\u05ea (Hebrew)"
+    },
+    "hi-IN": {
+      "LanguageKey": "\u0939\u093f\u0928\u094d\u0926\u0940 (Hindi)"
+    },
+    "hr-HR": {
+      "LanguageKey": "hrvatski (Croatian)"
+    },
+    "hu-HU": {
+      "LanguageKey": "magyar (Hungarian)"
+    },
+    "id-ID": {
+      "LanguageKey": "Bahasa Indonesia (Indonesian)"
+    },
+    "it-IT": {
+      "LanguageKey": "italiano (Italian)"
+    },
+    "ja-JP": {
+      "LanguageKey": "\u65e5\u672c\u306e (Japanese)"
+    },
+    "kk-KZ": {
+      "LanguageKey": "\u049a\u0430\u0437\u0430\u049b (Kazakh)"
+    },
+    "ko-KR": {
+      "LanguageKey": "\ud55c\uad6d\uc758 (Korean)"
+    },
+    "lt-LT": {
+      "LanguageKey": "Lietuvos (Lithuanian)"
+    },
+    "lv-LV": {
+      "LanguageKey": "Latvijas (Latvian)"
+    },
+    "ms-MY": {
+      "LanguageKey": "Bahasa Melayu (Malay)"
+    },
+    "nb-NO": {
+      "LanguageKey": "norsk (Norwegian)"
+    },
+    "nl-NL": {
+      "LanguageKey": "Nederlands (Dutch)"
+    },
+    "pl-PL": {
+      "LanguageKey": "polski (Polish)"
+    },
+    "pt-BR": {
+      "LanguageKey": "portugu\u00eas (Portuguese)"
+    },
+    "pt-PT": {
+      "LanguageKey": "portugu\u00eas (Portuguese)"
+    },
+    "ro-RO": {
+      "LanguageKey": "rom\u00e2nesc (Romanian)"
+    },
+    "ru-RU": {
+      "LanguageKey": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439 (Russian)"
+    },
+    "sk-SK": {
+      "LanguageKey": "slovensk\u00fd (Slovak)"
+    },
+    "sl-SI": {
+      "LanguageKey": "slovenski (Slovenian)"
+    },
+    "sr-Cyrl-RS": {
+      "LanguageKey": "\u0441\u0440\u043f\u0441\u043a\u0438 (Serbian)"
+    },
+    "sr-Latn-RS": {
+      "LanguageKey": "srpski (Serbian)"
+    },
+    "sv-SE": {
+      "LanguageKey": "svenska (Swedish)"
+    },
+    "th-TH": {
+      "LanguageKey": "\u0e44\u0e17\u0e22 (Thai)"
+    },
+    "tr-TR": {
+      "LanguageKey": "T\u00fcrk (Turkish)"
+    },
+    "uk-UA": {
+      "LanguageKey": "\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 (Ukrainian)"
+    },
+    "vi-VN": {
+      "LanguageKey": "ti\u1ebfng Vi\u1ec7t (Vietnamese)"
+    },
+    "zh-CN": {
+      "LanguageKey": "\u4e2d\u56fd (Chinese-Simplified)"
+    },
+    "zh-TW": {
+      "LanguageKey": "\u4e2d\u570b (Chinese-Tranditional)"
+    }
+  },
+  "capabilities": {
+    "dataRoles": [
+      {
+        "displayName": "Rows",
+        "name": "rows",
+        "kind": "Grouping"
+      },
+      {
+        "displayName": "Columns",
+        "name": "columns",
+        "kind": "Grouping"
+      },
+      {
+        "displayName": "Values",
+        "name": "values",
+        "kind": "Measure"
+      }
+    ],
+    "dataViewMappings": [
+      {
+        "matrix": {
+          "rows": {
+            "for": {
+              "in": "rows"
+            }
+          },
+          "columns": {
+            "for": {
+              "in": "columns"
+            }
+          },
+          "values": {
+            "for": {
+              "in": "values"
+            }
+          }
+        }
+      }
+    ],
+    "objects": {}
+  },
+  "content": {
+    "js": "var MatrixSuprema2025A1B2C3D4E5F6;(function(powerbi){\"use strict\";var visuals;(function(visuals){var plugins;(function(plugins){class Visual{constructor(options){console.log('Visual Constructor');this.target=options.element;this.host=options.host;this.container=document.createElement('div');this.container.style.cssText='width:100%;height:100%;overflow:auto;background-color:#f0f0f0;position:relative;box-sizing:border-box;padding:20px;';this.target.appendChild(this.container);this.container.innerHTML='<div style=\"background:yellow;padding:30px;font-size:20px;font-weight:bold;border:3px solid red;\">VISUAL CARGADA - '+new Date().toISOString()+'</div>';}update(options){console.log('Update called');if(!options||!options.dataViews||!options.dataViews[0]){this.container.innerHTML='<div style=\"background:orange;padding:20px;\">No hay datos</div>';return;}try{var dataView=options.dataViews[0];var html='<div style=\"background:white;padding:20px;font-family:Arial,sans-serif;\">';html+='<h2 style=\"color:#1e40af;margin:0 0 20px 0;\">Matrix Suprema - FUNCIONANDO</h2>';if(dataView.matrix){var matrix=dataView.matrix;html+='<table style=\"border-collapse:collapse;width:100%;background:white;\"><thead><tr style=\"background:#3b82f6;color:white;\">';html+='<th style=\"padding:12px;text-align:left;border:1px solid #ddd;\">Filas</th>';if(matrix.columns&&matrix.columns.root&&matrix.columns.root.children){matrix.columns.root.children.forEach(function(col){html+='<th style=\"padding:12px;text-align:right;border:1px solid #ddd;\">'+(col.value||'Col')+'</th>';});}html+='</tr></thead><tbody>';if(matrix.rows&&matrix.rows.root&&matrix.rows.root.children){matrix.rows.root.children.forEach(function(row,idx){html+='<tr style=\"'+(idx%2===0?'background:#f9fafb;':'')+'\">';html+='<td style=\"padding:12px;border:1px solid #ddd;font-weight:600;\">'+(row.value||'Row')+'</td>';if(row.values){for(var key in row.values){var val=row.values[key].value;var formatted=val!=null?val.toFixed(0):'-';var color=val<0?'color:#ef4444;':'color:#059669;';html+='<td style=\"padding:12px;border:1px solid #ddd;text-align:right;'+color+'font-weight:500;\">'+formatted+'</td>';}}html+='</tr>';});}html+='</tbody></table>';}else{html+='<p style=\"color:#666;\">Matrix data not found</p>';}html+='<div style=\"margin-top:20px;\"><button style=\"padding:10px 20px;background:#3b82f6;color:white;border:none;border-radius:6px;cursor:pointer;font-weight:600;\">\ud83d\udcca Export Excel</button> <button style=\"padding:10px 20px;background:#10b981;color:white;border:none;border-radius:6px;cursor:pointer;font-weight:600;margin-left:10px;\">\ud83d\udccb Copy</button></div>';html+='</div>';this.container.innerHTML=html;}catch(error){this.container.innerHTML='<div style=\"padding:20px;color:red;background:white;\">Error: '+error.message+'</div>';}}enumerateObjectInstances(options){return[];}destroy(){if(this.container)this.container.innerHTML='';}}plugins.MatrixSuprema2025A1B2C3D4E5F6={name:'MatrixSuprema2025A1B2C3D4E5F6',displayName:'Matrix Suprema',class:'Visual',apiVersion:'5.1.0',create:function(options){return new Visual(options);},custom:true};})(plugins=visuals.plugins||(visuals.plugins={}));})(visuals=powerbi.visuals||(powerbi.visuals={}));})(window['powerbi']||(window['powerbi']={}));MatrixSuprema2025A1B2C3D4E5F6=window['powerbi'].visuals.plugins.MatrixSuprema2025A1B2C3D4E5F6;",
+    "css": "p {\n  font-size: 20px;\n  font-weight: bold;\n}\np em {\n  background: yellow;\n  padding: 5px;\n}\n.xAxis path {\n  display: none;\n}\n.helpLink {\n  position: absolute;\n  top: 0px;\n  right: 12px;\n  display: block;\n  width: 20px;\n  height: 20px;\n  border: 2px solid #80B0E0;\n  border-radius: 20px;\n  color: #80B0E0;\n  text-align: center;\n  font-size: 16px;\n  line-height: 20px;\n}\n.helpLink.hidden {\n  display: none;\n}\n.LandingPage {\n  position: absolute;\n  text-align: center;\n  top: 12px;\n  font-size: 12pt;\n  right: 15px;\n}\n.LandingPageHelpLink {\n  position: absolute;\n  text-decoration: underline;\n  top: 50px;\n  font-size: 12pt;\n  right: 15px;\n}\n.direct-edit {\n  position: absolute;\n  bottom: 60%;\n  right: 12px;\n  display: inline-block;\n  width: 40%;\n  height: 20%;\n  border: 2px solid #80B0E0;\n  border-radius: 20px;\n  color: #80B0E0;\n  text-align: center;\n  font-size: 16px;\n  padding: 5px;\n}\n.hidden {\n  display: none;\n}\n\n",
+    "iconBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpBOEJGMzkxN0NBRDNFMDExQTcxQ0JFODI3ODBCQUE5RSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3NEY1QjA1NUQ0OTAxMUUwQTgxREI2NjMxMkNEMUNEMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3NEY1QjA1NEQ0OTAxMUUwQTgxREI2NjMxMkNEMUNEMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5Mjk5RDU1ODBGRDRFMDExQTcxQ0JFODI3ODBCQUE5RSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBOEJGMzkxN0NBRDNFMDExQTcxQ0JFODI3ODBCQUE5RSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PpDoNX0AAAI3SURBVHjarJRLSFVRFIY9t7SiRDGLoEEPCRJRaCSYkxCiFCXCF+LIMExQLkilgumgwkbdBuWDRC2EomhURCOjgagkXEgKLUKhidobM6H0+i34rxyPnuvEA5/rXPda/1l7739vJxKJxG3ls93+hEKhTILxJhgMftmsiPxdhHw4CfepeR8dCyjWwwB0kZy3iVgCoQ2ewnmXxhrBD7Cgr/ZQVA17fDRPw2UYhzK6G99IsBse6/0QNME+H8FT4EA/YiPqOgA1q4IMzBNuw6iKjkCpj+Av+AdnEEmD3bxfhzvuDk30HaEaLsEkXCO53rN+Bwg5qsvTuj/TjGYtx9nINhRmEx7AYWiFW7AXOuEcbPOUvIZ2mnrl+PkQUbNEh4QHNKUSDdsSBWEOlmxTEfvs26FL9Khe211if6Acgee+xo7xzMgBxfq9qPe3fgWBGN2lEnqtG9nExM7CV3jp3bDos2bKJB0nHFRxAxRpA/5CIXyHh5ABv6GZqd9dJ6iz2SjbxMMypGhJFtTlNzu3kK7xgDxpove8U66FK2A+s6nul5gVVMEL+Ak7lG/T+g9JcIOGar2CRUoogxMwpP/bLTJMB9bRhDbkk5bBUU0y3ES0xS04CBfN9RSHiY90vJK0BHaSzG9h2eejS3RJeVfdtrGzuGyd8CX7Yq6ExuCH63jaVMPkFOv6OibB6DKs2+VEQp+WYBoqERn2sVWWRNN0YurIfeL14U6YkpkLYCSG6e0yqdCxvKBLIm5FgAEAV0nKuwMYRUsAAAAASUVORK5CYII="
+  },
+  "visualEntryPoint": "",
+  "externalJS": [],
+  "assets": {
+    "icon": "assets/icon.png"
+  }
+}
