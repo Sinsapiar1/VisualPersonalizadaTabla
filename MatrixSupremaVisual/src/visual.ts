@@ -20,7 +20,7 @@ interface MatrixData {
     formattedValues: string[][];
 }
 
-export class Visual implements IVisual {
+class Visual implements IVisual {
     private target: HTMLElement;
     private host: IVisualHost;
     private container: HTMLDivElement;
@@ -599,3 +599,4 @@ export class Visual implements IVisual {
         document.head.appendChild(style);
     }
 }
+export { Visual };
